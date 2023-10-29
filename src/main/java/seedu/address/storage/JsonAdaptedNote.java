@@ -60,6 +60,7 @@ public class JsonAdaptedNote {
             throw new IllegalValueException(String.format(MISSING_FIELD_MESSAGE_FORMAT, Content.class.getSimpleName()));
         }
         if (!Content.isValidContent(content)) {
+            System.out.println(content);
             throw new IllegalValueException(Content.MESSAGE_CONSTRAINTS);
         }
         final Content modelContent = new Content(content);

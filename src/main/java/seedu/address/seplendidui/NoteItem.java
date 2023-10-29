@@ -23,7 +23,7 @@ public class NoteItem extends UiPart<Region> {
     @FXML
     private Label tags;
     /**
-     * Creates a {@code PartnerCourseItem} with the given {@code PartnerCourse}
+     * Creates a {@code NoteItem} with the given {@code Note}
      */
     public NoteItem(Note note, int displayedIndex) {
         super(FXML);

@@ -35,11 +35,7 @@
                     </minWidth>
                 </Label>
                 <Label fx:id="content"
-                       styleClass="big-heading-font-size">
-                    <minWidth>
-                        <!-- Ensures that the label text is never truncated -->
-                        <Region fx:constant="USE_PREF_SIZE"/>
-                    </minWidth>
+                       styleClass="text-font-size">
                 </Label>
                 <Label fx:id="tags"
                        styleClass="text-font-size"/>
